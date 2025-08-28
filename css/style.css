@@ -1,0 +1,84 @@
+
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: #000000;
+            color: #fffdfd;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, #530c0c, #b41515);
+            padding: 60px 20px;
+            text-align: center;
+            color: white;
+            
+        }
+        header img {
+            width: 200px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+        }
+        header h1 {
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+        }
+        header p {
+            font-size: 2.0rem;
+        }
+       
+        .btn-main {
+            display: inline-block;
+            padding: 14px 28px;
+            margin-top: 15px;
+            background: #ff6f61;
+            color: white;
+            font-weight: bold;
+            border-radius: 6px;
+            transition: 0.3s;
+            font-size:0.9rem;
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+        .btn-main:hover {
+            background: #e85b50;
+        }
+        .section {
+            padding: 60px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+        .section h2 {
+            margin-bottom: 20px;
+            color: #444;
+        }
+        .benefits ul {
+            list-style: none;
+            padding: 0;
+        }
+        .benefits ul li {
+            margin: 12px 0;
+        }
+        .benefits ul li::before {
+            content: "✔️ ";
+            color: green;
+        }
+        .author {
+            display: flex;
+            align-items: center;
+            margin-top: 25px;
+        }
+        .author img {
+            width: 100px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+        footer {
+            background: #111;
+            color: #aaa;
+            padding: 20px;
+            text-align: center;
+        }
+    
